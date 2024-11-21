@@ -5,6 +5,7 @@ import RecipeGenerator from './RecipeGenerator';
 import { Alert, AlertDescription } from './alert';
 import { Loader, PlusCircle, Scan, Trash2 } from 'lucide-react';
 import ImageCapture from './ImageCapture';
+const API_URL =  'http://localhost:3001';
 // Add useNavigate import at the top
 import { useNavigate } from 'react-router-dom';
 export default function PantryPage() {

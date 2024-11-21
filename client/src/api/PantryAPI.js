@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "http://localhost:3001";
 export const fetchPantryItems = async () => {
     const userEmail = localStorage.getItem('userEmail');
     const response = await fetch(`${API_URL}/api/pantry-items?userEmail=${userEmail}`);

@@ -1,8 +1,8 @@
-const API_URL = import.meta.env.VITE_API_URL;
+
 export const analyzeImage = async (base64Data) => {
   try {
     // Make the API request with JSON body instead of FormData
-    const response = await fetch(`${API_URL}/api/analyze-image`, {
+    const response = await fetch(`http://localhost:3001/api/analyze-image`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

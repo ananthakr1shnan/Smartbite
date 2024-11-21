@@ -1,7 +1,10 @@
 {
     "scripts": {
-      "install": "cd client && npm install && cd ../server && npm install",
-      "build": "cd client && npm run build && cd ../server && npm run build",
-      "start": "cd server && npm start"
+        "install": "cd client && npm install && cd ../server && npm install",
+        "build": "cd client && npm run build && cd ../server && npm run build",
+        "start": "cd server && npm start"
+    },
+    "dependencies": {
+        "vite": "^5.4.11"
     }
-  }
+}

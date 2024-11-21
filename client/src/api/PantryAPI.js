@@ -1,7 +1,7 @@
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 export const fetchPantryItems = async () => {
     const userEmail = localStorage.getItem('userEmail');
-    const response = await fetch(`${API_URL}/api/pantry-items?userEmail=${userEmail}`);
+    const response = await fetch(`${API_URL}/api/pantry-items?userEmail=${encodeURIComponent(userEmail)}`);
     const data = await response.json();
     return data.items;
   };
@@ -48,4 +48,3 @@ export const deletePantryItem = async (itemId, userEmail) => {
     const data = await response.json();
     return data.recipe;
   };
-  

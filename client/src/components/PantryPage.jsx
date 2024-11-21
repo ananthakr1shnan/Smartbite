@@ -82,7 +82,7 @@ const handleLogout = () => {
   const handleDeleteItem = async (itemId) => {
     setLoading(true);
     try {
-      await fetch(`http://localhost:3001/api/pantry-items/${itemId}?userEmail=${encodeURIComponent(userEmail)}`, {
+      await fetch(`${API_URL}/api/pantry-items/${itemId}?userEmail=${encodeURIComponent(userEmail)}`, {
         method: 'DELETE',
       });
       setItems(items.filter((item) => item._id !== itemId));

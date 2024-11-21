@@ -8,9 +8,7 @@ const Food = require('./model/food');
 const bodyParser = require('body-parser');
 const app = express();
 app.use(express.json());
-app.use(cors({
-  origin: 'https://smartbite.vercel.app', // Allow requests from your deployed frontend URL
-}));
+app.use(cors());
 require('dotenv').config();
 require('./scheduler');  
 mongoose.connect(process.env.MONGO_URI, {

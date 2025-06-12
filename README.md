@@ -8,7 +8,7 @@
 - **Pantry Management:** Allows users to scan images of food items to track expiry dates and sort pantry items.
 - **Notifications:** Sends timely alerts when items are close to their expiry date, ensuring nothing goes to waste.
 
-## 🛠️ How We Built It
+## 🛠️ How I Built It
 
 - **Frontend:** Built with Vite.js for fast development and a seamless user experience.
 - **Backend:** Developed using Node.js with Express.js to create RESTful APIs.
@@ -25,7 +25,7 @@
 - Enabled intelligent pantry organization by scanning and categorizing items through image recognition.
 - Promoted sustainability by helping users reduce food waste.
 
-## 🤔 Challenges We Faced
+## 🤔 Challenges I Faced
 
 - Integrating AI models with the backend to handle text and image processing effectively.
 - Ensuring accurate tracking of expiry dates and generating timely recipes.

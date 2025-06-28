@@ -285,17 +285,4 @@ const recognizeFood = async (imageBuffer) => {
 
 ---
 
-## 🙏 Acknowledgments
-
-### Special Thanks
-- **Meta AI** for providing the Llama 3.1 and 3.2 models
-- **SambaNova Systems** for the cloud AI platform
-
-### Inspiration
-This project was inspired by the global need to reduce food waste and promote sustainable consumption habits. Special recognition to:
-- **UN Sustainable Development Goals** - Zero Hunger initiative
-- **Food and Agriculture Organization** - Global food waste research
-- **Environmental sustainability advocates** worldwide
-
----
 

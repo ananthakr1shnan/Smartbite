@@ -1,4 +1,4 @@
-# 🍽️ Smart Bite - AI-Powered Food Waste Reduction
+# 🍽️ Smart Bite – Leveraging Multimodal Generative AI for Intelligent Pantry Management and Sustainable Living
 
 [![Demo Video](https://img.shields.io/badge/Demo-YouTube-red)](https://youtu.be/HloCfTr_pBc)
 
